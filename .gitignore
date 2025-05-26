@@ -3,3 +3,15 @@
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
+gauri/aws/.terraform.lock.hcl
+gauri/aws/.terraform/
+gauri/aws/terraform.tfstate
+gauri/aws/terraform.tfstate.backup
+gauri/basics/.terraform.lock.hcl
+gauri/basics/.terraform/
+gauri/basics/terraform.tfstate
+gauri/basics/terraform.tfstate.backup
+gauri/variables/.terraform.lock.hcl
+gauri/variables/.terraform/
+gauri/variables/terraform.tfstate
+gauri/variables/terraform.tfstate.backup

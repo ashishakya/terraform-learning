@@ -23,5 +23,8 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   ami           = data.aws_ssm_parameter.ubuntu_20_04.value
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
+  tags = {
+    Name = "my-ec2"
+  }
 }
