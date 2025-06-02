@@ -1,8 +1,9 @@
 terraform {
   backend "s3" { // backend is something where you store your state remotely
-    bucket = "ashishakya-terraform-state"
-    key = "dev/terraform.tfstate" // path for the terraform.tfstate file
-    region = "eu-west-1"
+    bucket  = "ashishakya-terraform-state"
+    key     = "dev/terraform.tfstate" // path for the terraform.tfstate file
+    region  = "eu-west-1"
+    profile = "proshore-terraform"
   }
 }
 provider "aws" {
